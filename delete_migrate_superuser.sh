@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd ~/PycharmProjects/drf/
+cd ~/PycharmProjects/aerin/
 rm db.sqlite3
 find ~/PycharmProjects/drf/snippets/migrations/ -name "0*" -exec rm {} \;
 python3.6 manage.py makemigrations
